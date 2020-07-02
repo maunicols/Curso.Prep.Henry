@@ -103,7 +103,6 @@ function numeroMasGrande(numeros) {
   	if(maximo<numeros[i]) {
   		maximo= numeros [i]
   	} return maximo
-
 }
 
 function multiplicarArgumentos() {
