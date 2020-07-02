@@ -1,0 +1,5 @@
+Reailcé dos versiones del homework resuelto por una irregularidad que se marcaba en rojo dentro de github en la linea 108. 
+Se mostraba una llave cerrada que no era identificable como error dentro del editor sublimetext.
+Tampoco fue erronea para el npm test el cual dio la primera pauta para subirlo.
+El archivo fue modificado por ese detalle y la nueva version corrige ese imperfecto.
+Puede observarse en el snapshot fa883d0 
