@@ -98,6 +98,12 @@ function numeroMasGrande(numeros) {
   // "numeros" debe ser una matriz de enteros (int/integers)
   // Devuelve el número más grande
   // Tu código:
+  var maximo=[]
+  for (i=0;i<numeros.length;i++)
+  	if(maximo<numeros[i]) {
+  		maximo= numeros [i]
+  	} return maximo
+
 }
 
 function multiplicarArgumentos() {
@@ -105,7 +111,12 @@ function multiplicarArgumentos() {
   // Si no se pasan argumentos devuelve 0
   // Si se pasa un argumento, simplemente devuélvelo
   // Tu código:
-}
+  if (arguments.length < 1 ) return 0;
+  var resultado = 1;
+  for( var i = 0 ; i < arguments.length ; i++ ) {
+  	resultado = resultado *arguments [i];
+  }  return resultado;
+  }
 
 // No modificar nada debajo de esta línea
 // --------------------------------
